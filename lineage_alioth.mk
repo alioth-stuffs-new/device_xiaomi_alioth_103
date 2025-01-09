@@ -14,6 +14,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit Camera-related flags
 TARGET_USES_MIUI_CAMERA := true
 TARGET_INCLUDES_MIUI_CAMERA := true
+TARGET_SUPPORT_BOOT_ANIMATIONS := false
 
 EVO_BUILD_TYPE := Fan-Edition
 TARGET_USES_PICO_GAPPS := true
