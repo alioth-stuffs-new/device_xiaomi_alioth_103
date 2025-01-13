@@ -17,6 +17,7 @@ TARGET_INCLUDES_MIUI_CAMERA := true
 TARGET_SUPPORT_BOOT_ANIMATIONS := false
 
 EVO_BUILD_TYPE := Fan-Edition
+WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
 
 # Inherit from alioth device
