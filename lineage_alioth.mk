@@ -19,6 +19,7 @@ TARGET_SUPPORT_BOOT_ANIMATIONS := false
 EVO_BUILD_TYPE := Fan-Edition
 WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
+TARGET_CORE_GMS := true
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
