@@ -21,6 +21,7 @@ WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
 TARGET_CORE_GMS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
