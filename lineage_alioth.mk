@@ -25,6 +25,7 @@ TARGET_BUILD_DEVICE_AS_WEBCAM := true
 TARGET_INCLUDE_NEXUS := false
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_STOCK_AICORE := true
+TARGET_DISABLE_EPPE := true
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
