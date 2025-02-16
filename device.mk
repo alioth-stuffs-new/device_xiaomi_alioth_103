@@ -26,15 +26,8 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
 
-# Miui Camera
-include vendor/xiaomi/camera/miuicamera.mk
-
 # Sign
 -include vendor/lineage-priv/keys/keys.mk
-
-# Miui Camera STLicense
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
